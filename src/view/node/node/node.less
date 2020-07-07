@@ -1,0 +1,243 @@
+.uploadTitle{
+    padding:0 30px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    margin-top:30px;
+    div:nth-child(1){
+        font-size:16px;
+        font-weight: bold;
+    }
+    div:nth-child(2){
+        margin-top:5px;
+        span:nth-child(1){
+            color:#01C1AE;
+            cursor: pointer;
+        }
+    }
+}
+.list_bottom{
+    display: flex;
+    justify-content: center;
+    padding-right:0
+}
+.labelBlod{
+    padding:0 40px;
+    /deep/
+    .ivu-form-item-label{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /deep/
+    .ivu-input{
+        height: 32px;
+    }
+    /deep/
+    .ivu-select-input{
+        height: 32px;
+        line-height: 32px;
+    }
+    /deep/
+    .ivu-select-selection{
+        height: 32px;
+    }
+    /deep/
+    .ivu-table th{
+        background: #1A1A1A;
+        color:#FFF;
+    }
+}
+.inner{
+    /deep/
+    .ivu-input{
+        height: 32px;
+    }
+}
+/deep/
+.ivu-upload{
+    padding:0 30px;
+    height: 320px;
+    margin-bottom:30px;
+}
+.selectFile{
+    height:32px;
+    width: 200px;
+    background: #01C1AE;
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+}
+/deep/
+.ivu-upload-drag{
+    border:1px solid rgba(112,112,112,1);
+    border-radius: 0;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:90px;
+    color:#808080;
+}
+#node{
+    display: flex;
+    .node_list{
+        min-width:500px;
+        width: 29.23%;
+        height:~"calc(100vh - 170px)";
+        // height: 920px;
+        background: #FFF;
+        margin-right: 20px;
+        overflow: hidden;
+        /deep/
+        .ivu-table-row-hover td{
+            cursor: pointer;
+        }
+        .add{
+            height: 107px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:20px;
+            img{
+                cursor: pointer;
+            }
+        }
+        .title{
+            margin:10px 0 23px;
+            text-align: center;
+        }
+        .type{
+            text-align: center;
+            img{
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+            }
+        }
+        .select_input{
+            display: flex;
+            justify-content: center;
+            /deep/
+            .ivu-input.ivu-input-default.ivu-input-with-suffix{
+                margin:34px auto 14px;
+                width:90%;
+                height:32px;
+                padding:0 35px 0 10px;
+                border:1px solid rgba(26,26,26,1);
+                border-radius:2px;
+            }
+            /deep/
+            .ivu-input-icon{
+                right:6%;
+                top:35px;
+            }
+            /deep/
+            .ivu-input:focus{
+                box-shadow: none !important;
+            }
+            /deep/
+            .ivu-input-wrapper{
+                display: flex;justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    #nodeMap{
+        width: 69.5%;
+        height:~"calc(100vh - 170px)";
+        // height: 920px;
+    }
+    .add_warpper{
+        width:85vw;
+        height: 100vh;
+        background: #FFF;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        display: flex;
+        #addNodeMap{
+            width: 43vw;
+            height:100vh;
+        }
+    }
+    .add_detail{
+        width: 42vw;
+        min-width: 800px;
+        height: 100vh;
+        .add_title{
+            height:40px;
+            background:rgba(243,243,243,1);
+            display: flex;
+            align-items: center;
+            color:#333333;
+            font-size: 14px;
+            font-weight: bold;
+            img{
+                width:28px;
+                height: 28px;
+                cursor: pointer;
+                margin:0 24px 0 14px;
+            }
+        }
+        .add_scroll{
+            overflow-y:auto;
+            height:~"calc(100vh - 118px)";
+        }
+        .add_bottom{
+            height: 78px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f3f3f3;
+            position: absolute;
+            bottom: 0;
+            .add_button{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width:100px;
+                height: 32px;
+                background:linear-gradient(270deg,rgba(11,205,255,1) 0%,rgba(0,202,114,1) 100%);
+                border-radius:2px;
+                color:#FFF;
+                font-size:14px;
+            }
+        }
+    }
+}
+// 弹出层动画
+.detail-fade-enter-active{
+    animation: detail-in .6s ease;
+}
+.detail-fade-leave-active {
+    animation: detail-out .6s ease;
+}
+@keyframes detail-in {
+    0% {
+        transform: translate(85vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes detail-out {
+    0% {
+        transform: translate(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(85vw);
+        opacity: 0;
+    }
+}
+

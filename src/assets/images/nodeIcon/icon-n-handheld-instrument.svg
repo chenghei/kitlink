@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50.001" viewBox="0 0 50 50.001">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #149b94;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="组_565" data-name="组 565" transform="translate(-350.551 -469.619)">
+    <path id="路径_646" data-name="路径 646" class="cls-1" d="M375.537,519.62a25,25,0,1,1,25.01-25.437h0a25.031,25.031,0,0,1-24.56,25.433C375.836,519.619,375.686,519.62,375.537,519.62Zm.018-47.272-.394,0a22.273,22.273,0,1,0,22.658,21.881h0A22.3,22.3,0,0,0,375.555,472.348Z" transform="translate(0 0)"/>
+    <path id="路径_647" data-name="路径 647" class="cls-1" d="M365.571,511.6a19.227,19.227,0,0,1,0-32.167l1,1.518a17.406,17.406,0,0,0-2.047,27.556C365.159,509.081,365.571,511.6,365.571,511.6Z" transform="translate(-0.575 -0.893)"/>
+    <path id="路径_648" data-name="路径 648" class="cls-1" d="M389.563,511.586l-1-1.518a17.407,17.407,0,0,0,2.219-27.4c-.686-.628-1.221-3.247-1.221-3.247a19.227,19.227,0,0,1,0,32.167Z" transform="translate(-3.456 -0.891)"/>
+    <path id="路径_649" data-name="路径 649" class="cls-1" d="M389.662,479.418l1.108,6.719,1.491-4.4Z" transform="translate(-3.556 -0.891)"/>
+    <path id="路径_650" data-name="路径 650" class="cls-1" d="M366.179,514.15l-1.108-6.719-1.492,4.4Z" transform="translate(-1.185 -3.438)"/>
+    <path id="路径_651" data-name="路径 651" class="cls-2" d="M367.228,500.121" transform="translate(-1.516 -2.773)"/>
+    <path id="路径_652" data-name="路径 652" class="cls-2" d="M367.228,488.99" transform="translate(-1.516 -1.761)"/>
+    <g id="组_564" data-name="组 564" transform="translate(369.13 478.413)">
+      <path id="路径_653" data-name="路径 653" class="cls-1" d="M383.024,490.657H371.793a.8.8,0,0,0-.805.805v9.3a.8.8,0,0,0,.137.449l.379.564a.809.809,0,0,1,.137.45v9.71a.8.8,0,0,0,.8.805h9.924a.806.806,0,0,0,.805-.805v-9.71a.8.8,0,0,1,.137-.45l.379-.564a.805.805,0,0,0,.136-.449v-9.3A.8.8,0,0,0,383.024,490.657Zm-1.07,7.33h-9.091v-4.4h9.091Z" transform="translate(-370.988 -480.326)"/>
+      <rect id="矩形_450" data-name="矩形 450" class="cls-1" width="2.614" height="0.753" transform="translate(1.648 9.787)"/>
+      <rect id="矩形_451" data-name="矩形 451" class="cls-1" width="1.25" height="11.307" rx="0.625" transform="translate(2.268)"/>
+    </g>
+  </g>
+</svg>

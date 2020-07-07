@@ -1,0 +1,137 @@
+.level1{
+    background:#0CCD52 !important;
+    color:#fff;
+}
+.level2{
+    background:#25CBDB !important;
+    color:#fff;
+}
+.level3{
+    background:#11A9E3 !important;
+    color:#fff;
+}
+.level4{
+    background:#FF850B !important;
+    color:#fff;
+}
+.level5{
+    background:#FF3333 !important;
+    color:#fff;
+}
+.alarm{
+    background:#FF5454 !important;
+    color:#fff;
+}
+.offline{
+    background:#999999 !important;
+    color:#FFF;
+}
+.cardContent{
+    font-size:24px;
+    font-weight:bold;
+    margin:18px 0 13px;
+    display:flex;
+    justify-content: space-between;
+}
+#card{
+    position: relative;
+    margin-top:50px;
+    width: ~"calc( 100vw - 200px)";
+    .select_card{
+        width:~"calc(100% - 170px)";
+        height: 80px;
+        position: fixed;
+        top:100px;
+        display: flex;
+        z-index: 1;
+        background:#f3f3f3;
+        left:160px;
+        align-items: center;
+        padding-left:30px;
+        border-bottom:2px solid #ddd;
+        .checkName_input{
+            width: 300px;
+            height: 32px;
+            border:1px solid rgba(26,26,26,1);
+            margin-right: 100px;
+            background: #FFF;
+            padding:0 10px;
+            font-size:12px;
+        }
+        .checkName_button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 32px;
+            background:linear-gradient(270deg,rgba(11,205,255,1) 0%,rgba(0,202,114,1) 100%);
+            border-radius:2px;
+            text-align: center;
+            color:#FFF;
+            cursor: pointer;
+        }
+    }
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        /deep/
+        .ivu-col{
+            @media (min-width: 2811px) {
+                width:14.28%
+            }
+            @media (max-width: 2810px) {
+                width:16.66%
+            }
+            @media (max-width: 2460px) {
+                width:20%
+            }
+            @media (max-width: 1920px) {
+                width:25%
+            }
+            @media (max-width: 1600px) {
+                width:33.33%
+            }
+            @media (max-width: 1200px) {
+                width:50%
+            }
+            @media (max-width: 768px) {
+                width:100%
+            }
+        }
+        .detail{
+            height: 160px;
+            margin-top:20px;
+            display: flex;
+            align-items: center;
+            background: #FFF;
+            transition: all .2s ease;
+            cursor: pointer;
+            width:100%;
+            .detail_left{
+                width:32%;
+                display: flex;
+                flex-direction:column;
+                text-align: center;
+            }
+            .detail_right{
+                width:68%;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                p{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+        .detail:hover{
+            transform: scale(1.05);
+            box-shadow:0px 4px 15px  rgba(0,0,0,0.2);
+        }
+    }
+
+}

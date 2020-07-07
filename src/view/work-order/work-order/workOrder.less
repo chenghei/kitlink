@@ -1,0 +1,85 @@
+.add_workOrder{
+    width: 810px;
+    height: 100vh;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    .add_title{
+        height:40px;
+        background:rgba(243,243,243,1);
+        display: flex;
+        align-items: center;
+        color:#333333;
+        overflow: auto;
+        font-size: 14px;
+        font-weight: bold;
+        img{
+            width:28px;
+            height: 28px;
+            cursor: pointer;
+            margin:0 24px 0 14px;
+        }
+    }
+    .add_scroll{
+        overflow-y:scroll;
+        height:~"calc(100vh - 158px)";
+        /deep/
+        textarea.ivu-input{
+            height:120px;
+        }
+    }
+}
+.slide-fade-enter-active{
+    animation: bounce-in .5s;
+}
+.slide-fade-leave-active {
+    animation: bounce-out .5s;
+}
+@keyframes bounce-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes bounce-out {
+    0% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+}
+.detail-fade-enter-active{
+    animation: detail-in .5s;
+}
+.detail-fade-leave-active {
+    animation: detail-out .5s;
+}
+@keyframes detail-in {
+    0% {
+        transform: translate(800px)
+    }
+
+    100% {
+        transform: translate(0)
+    }
+}
+@keyframes detail-out {
+    0% {
+        transform: translate(0)
+    }
+
+    100% {
+        transform: translate(800px)
+    }
+}
+/deep/
+.ivu-checkbox{
+    margin-right:5px
+}

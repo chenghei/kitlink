@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #FFF;
+      }
+    </style>
+  </defs>
+  <g id="组_65" data-name="组 65" transform="translate(-270.989 -946)">
+    <path id="减去_6" data-name="减去 6" class="cls-1" d="M284.989,956h-14V946h14Zm-13-9v7h12v-7Z"/>
+    <rect id="矩形_89" data-name="矩形 89" class="cls-1" width="12" height="2" transform="translate(271.989 958)"/>
+    <rect id="矩形_90" data-name="矩形 90" class="cls-1" width="2" height="2" transform="translate(276.989 955)"/>
+    <path id="路径_86" data-name="路径 86" class="cls-1" d="M281.171,947.881l-2.486,2.4L276.82,948.6l-2.985,3.641.906.847,2.08-2.613,1.866,1.669,3.355-3.421Z"/>
+  </g>
+</svg>

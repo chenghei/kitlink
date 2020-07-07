@@ -1,0 +1,257 @@
+.header{
+    height: 40px;
+    background: #1A1A1A;
+    color:#FFF;
+    display: flex;
+    align-items: center;
+    padding:0 30px;
+    margin-bottom:20px;
+    div{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        img{
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }       
+}
+.onlineDetail_content{
+    display: flex;
+    justify-content: space-between;
+    .left_content::-webkit-scrollbar-track-piece{ background-color: #fff; -webkit-border-radius: 6px;}
+    .left_content::-webkit-scrollbar{ width: 6px; height: 10px;}
+    .left_content{
+        width:23.8%;
+        height:~"calc(100vh - 230px)";
+        margin-right:20px;
+        background: #FFF;
+        padding:0 30px;
+        overflow-y:auto; 
+        .title{
+            padding:40px 0;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .type{
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .name{
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom:10px;
+        }
+        .input_middle{
+            width:340px;
+            height:32px;
+            margin-bottom:10px;
+        }
+        p{
+            margin-bottom:30px;
+        }
+        .tip{
+            color:#B3B3B3;
+        }
+    }
+    .right_content{
+        width:74.9%;
+        height:~"calc(100vh - 230px)";
+        background: #FFF;
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:20px 0;
+            div{
+                cursor: pointer;
+            }
+            .view_select{
+                width:100px;
+                height:24px;
+                border-radius:12px 0px 0px 12px;
+                background: #01C1AE;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color:#FFF;
+            }
+            .list{
+                width:100px;
+                height:24px;
+                border-radius:0 12px 12px 0;
+                background: #ddd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .view{
+                width:100px;
+                height:24px;
+                border-radius:12px 0px 0px 12px;
+                background: #ddd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .list_select{
+                width:100px;
+                height:24px;
+                border-radius:0 12px 12px 0;
+                background: #01C1AE;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color:#FFF;
+            }
+        }
+        .echarts_out{
+            height:~"calc(100vh - 294px)";
+            overflow-y: auto;
+
+        }
+        .echarts_out::-webkit-scrollbar-track-piece{ background-color: #fff; -webkit-border-radius: 6px;}
+        .echarts_out::-webkit-scrollbar{ width: 6px; height: 10px;}
+        .echarts_title{
+            padding:0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top:20px;
+            .type{
+                font-size: 16px;
+                font-weight: bold;                    
+            }
+            .select_time{
+                display: flex;
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width:80px;
+                    height:24px;
+                    border-radius: 2px;
+                }
+                div:nth-child(1){
+                    background: #01C1AE;
+                    display: flex;
+                    color:#FFF;
+                    margin-right: 10px;
+                }
+                div:nth-child(2){
+                    background: #fff;
+                    border:1px solid #ddd;
+                }
+            }
+        }
+
+        #voltage,#sensorData{
+            margin-bottom:30px;
+        }
+        .list_title{
+            width:100%;
+            background: #F3F3F3;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            padding:0 50px;
+            div{
+                font-weight: bold;
+                width: 14.3%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+        .list_content_out::-webkit-scrollbar-track-piece{ background-color: #fff; -webkit-border-radius: 6px;}
+        .list_content_out::-webkit-scrollbar{ width: 6px; height: 10px;}
+        .list_content_out{
+            height:~"calc(100vh - 334px)";
+            overflow-y: auto;
+            .list_content{
+                width:100%;
+                display: flex;
+                align-items: center;
+                height: 40px;
+                padding:0 50px;
+                height:60px;
+                border-bottom:1px solid #ddd;
+                div{
+                    width: 14.3%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+.list_bottom{
+    padding-right: 40px;
+    ul{
+        margin-top:15px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    /deep/
+    .ivu-page-item{
+        width:22px;
+        min-width: 22px;
+        height:22px;
+        line-height: 22px;
+        cursor: pointer;
+        a{
+            margin:0
+        }
+    }
+    /deep/
+    .ivu-page-item:hover{
+        border-color:#01C1AE;
+        a{
+            color:#01C1AE;
+        }
+    }
+    /deep/
+    .ivu-page-item:active{
+        border-color:#01C1AE;
+        a{
+            color:#01C1AE;
+        }
+    }
+    /deep/
+    .ivu-page-next{
+        widows: 22px;
+        min-width: 22px;
+        height:22px;
+        line-height: 22px;
+        i{
+            margin-top:-2px;
+        }
+    }
+    /deep/
+    .ivu-page-prev{
+        width:22px;
+        min-width: 22px;
+        height:22px;
+        line-height: 22px;
+        i{
+            margin-top:-2px;
+        }
+    }
+    /deep/
+    .ivu-page-item-active{
+        border-color:#01C1AE;
+        a{
+            color:#01C1AE;
+        }
+    }
+    /deep/
+    .ivu-page-options-elevator input{
+        width:30px;
+        height:25px;
+        margin:5px 0;
+    }
+}

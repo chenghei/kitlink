@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="组_546" data-name="组 546" transform="translate(-694.208 -294.619)">
+    <g id="组_545" data-name="组 545" transform="translate(706.811 314.225)">
+      <path id="路径_599" data-name="路径 599" class="cls-1" d="M717.461,316.281h-9.39v12.286h3.818V324h5.572a.847.847,0,0,0,.847-.847v-6.027A.847.847,0,0,0,717.461,316.281Zm-2.483,4.6a.752.752,0,0,1-.753.753h-2.336v-2.985h2.336a.752.752,0,0,1,.753.753Z" transform="translate(-708.071 -316.195)"/>
+      <path id="路径_600" data-name="路径 600" class="cls-1" d="M735.157,317.277v-.215a.875.875,0,0,0-.875-.875h-4.287v1.349h-.836v1.321H727.78v-1.321h-1.057v-1.349H722.2c-.483,0-.875.2-.875,1.091l.036,11.186h3.3v-7.626H726.6v4.219h3.657v-4.219h1.607l0,7.626h3.3V317.277Z" transform="translate(-709.276 -316.186)"/>
+    </g>
+    <path id="路径_601" data-name="路径 601" class="cls-1" d="M719.2,344.618a25,25,0,0,1-.43-50c.147,0,.3,0,.443,0a25,25,0,0,1,.431,50Zm.012-47.272c-.131,0-.263,0-.394,0a22.257,22.257,0,1,0,.394,0Z" transform="translate(0)"/>
+    <circle id="椭圆_203" data-name="椭圆 203" class="cls-1" cx="2.045" cy="2.045" r="2.045" transform="translate(705.607 307.191)"/>
+    <circle id="椭圆_204" data-name="椭圆 204" class="cls-1" cx="1.587" cy="1.587" r="1.587" transform="translate(734.739 320.675)"/>
+    <circle id="椭圆_205" data-name="椭圆 205" class="cls-1" cx="2.045" cy="2.045" r="2.045" transform="translate(704.341 328.854)"/>
+    <circle id="椭圆_206" data-name="椭圆 206" class="cls-1" cx="0.921" cy="0.921" r="0.921" transform="translate(700.206 319.443)"/>
+    <circle id="椭圆_207" data-name="椭圆 207" class="cls-1" cx="1.435" cy="1.435" r="1.435" transform="translate(714.011 301.653)"/>
+    <circle id="椭圆_208" data-name="椭圆 208" class="cls-1" cx="0.921" cy="0.921" r="0.921" transform="translate(733.02 309.946)"/>
+    <circle id="椭圆_209" data-name="椭圆 209" class="cls-1" cx="0.921" cy="0.921" r="0.921" transform="translate(729.385 329.624)"/>
+    <circle id="椭圆_210" data-name="椭圆 210" class="cls-1" cx="0.921" cy="0.921" r="0.921" transform="translate(715.206 327.647)"/>
+    <circle id="椭圆_211" data-name="椭圆 211" class="cls-1" cx="2.802" cy="2.802" r="2.802" transform="translate(718.413 333.277)"/>
+    <circle id="椭圆_212" data-name="椭圆 212" class="cls-1" cx="2.629" cy="2.629" r="2.629" transform="translate(723.149 302.891)"/>
+  </g>
+</svg>

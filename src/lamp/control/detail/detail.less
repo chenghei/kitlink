@@ -1,0 +1,68 @@
+.content_select_input{
+    margin-left:10px;
+}
+.content_left{
+    width: 400px;
+    height:~"calc(100vh - 170px)";
+    min-height: 360px;
+    background: #FFF;
+    margin-right:20px
+}
+.content_right{
+    width:~"calc(100% - 420px)";
+    height:~"calc(100vh - 170px)";
+    min-height: 360px;
+    background: #FFF;
+}
+/deep/
+.list_bottom ul{
+    flex-wrap: wrap;
+}
+.tree_out{
+    height:~"calc(100vh - 210px)";
+    overflow: auto;
+    /deep/
+    .ivu-table-row-hover td{
+        cursor: pointer;
+    }
+}
+.add_scroll{
+    /deep/
+    .ivu-table th{
+        background: #1A1A1A;
+        color:#FFF;
+    }
+}
+/deep/
+.ivu-checkbox{
+    margin-right:5px
+}
+// 弹出层动画
+.detail-fade-enter-active{
+    animation: detail-in .6s ease;
+}
+.detail-fade-leave-active {
+    animation: detail-out .6s ease;
+}
+@keyframes detail-in {
+    0% {
+        transform: translate(85vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes detail-out {
+    0% {
+        transform: translate(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(85vw);
+        opacity: 0;
+    }
+}

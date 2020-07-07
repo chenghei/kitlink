@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="组_1865" data-name="组 1865" transform="translate(-231 -507)">
+    <circle id="椭圆_232" data-name="椭圆 232" cx="14" cy="14" r="14" transform="translate(231 507)"/>
+    <rect id="矩形_781" data-name="矩形 781" class="cls-1" width="4" height="12" transform="translate(240.172 515.343) rotate(-45)"/>
+    <rect id="矩形_782" data-name="矩形 782" class="cls-1" width="4" height="12" transform="translate(248.657 518.172) rotate(45)"/>
+  </g>
+</svg>

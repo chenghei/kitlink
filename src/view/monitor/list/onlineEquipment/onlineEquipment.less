@@ -1,0 +1,91 @@
+#onlineEquipment{
+    .content{
+        height:~"calc(100vh - 170px)";
+        min-height: 650px;
+        background: #FFF;
+        .header{
+            height: 40px;
+            background: #1A1A1A;
+            color:#FFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0 30px;
+            div{
+                display: flex;
+                align-items: center;
+                img{
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+            }     
+        }
+        .list_bottom{
+            padding-right: 40px;
+            ul{
+                margin-top:15px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            /deep/
+            .ivu-page-item{
+                width:22px;
+                min-width: 22px;
+                height:22px;
+                line-height: 22px;
+                cursor: pointer;
+                a{
+                    margin:0
+                }
+            }
+            /deep/
+            .ivu-page-item:hover{
+                border-color:#01C1AE;
+                a{
+                    color:#01C1AE;
+                }
+            }
+            /deep/
+            .ivu-page-item:active{
+                border-color:#01C1AE;
+                a{
+                    color:#01C1AE;
+                }
+            }
+            /deep/
+            .ivu-page-next{
+                widows: 22px;
+                min-width: 22px;
+                height:22px;
+                line-height: 22px;
+                i{
+                    margin-top:-2px;
+                }
+            }
+            /deep/
+            .ivu-page-prev{
+                width:22px;
+                min-width: 22px;
+                height:22px;
+                line-height: 22px;
+                i{
+                    margin-top:-2px;
+                }
+            }
+            /deep/
+            .ivu-page-item-active{
+                border-color:#01C1AE;
+                a{
+                    color:#01C1AE;
+                }
+            }
+            /deep/
+            .ivu-page-options-elevator input{
+                width:30px;
+                height:25px;
+                margin:5px 0;
+            }
+        }
+    }
+}

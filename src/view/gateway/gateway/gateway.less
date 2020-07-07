@@ -1,0 +1,350 @@
+.wrapTable{
+    /deep/
+    .ivu-table-cell{
+        padding-left:30px;
+        white-space: pre-line;
+    }
+}
+.wrapTd{
+    /deep/
+    .ivu-table-tbody{
+        /deep/
+        .ivu-table-cell{
+            white-space: pre-line !important;
+        }
+    }
+}
+.panel_title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:20px;
+    padding:0 30px;
+}
+.add_scroll{
+    /deep/
+    .ivu-table th{
+        background: #1A1A1A;
+        color:#FFF;
+    }
+}
+.inner{
+    /deep/
+    .ivu-input{
+        height: 32px;
+    }
+}
+.tags{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:30px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all .2s ease-out;
+}
+.tags:hover{
+    background: #ddd;
+}
+.active{
+    background: #ddd;
+}
+#gateway{
+    display: flex;
+    .node_list{
+        width: 29.23%;
+        min-width: 500px;
+        height:~"calc(100vh - 170px)";
+        // height: 920px;
+        background: #FFF;
+        
+        margin-right: 20px;
+        overflow: hidden;
+        /deep/
+        .ivu-table-row-hover td{
+            cursor: pointer;
+        }
+        .add{
+            height: 107px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:20px;
+            img{
+                cursor: pointer;
+            }
+        }
+        .title{
+            margin:10px 0 23px;
+            text-align: center;
+        }
+        .type{
+            text-align: center;
+            img{
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+            }
+        }
+        .select_input{
+            display: flex;
+            justify-content: center;
+            /deep/
+            .ivu-input.ivu-input-default.ivu-input-with-suffix{
+                margin:34px auto 14px;
+                width:90%;
+                height:32px;
+                padding:0 35px 0 10px;
+                border:1px solid rgba(26,26,26,1);
+                border-radius:2px;
+            }
+            /deep/
+            .ivu-input-icon{
+                right:6%;
+                top:35px;
+            }
+            /deep/
+            .ivu-input:focus{
+                box-shadow: none !important;
+            }
+            /deep/
+            .ivu-input-wrapper{
+                display: flex;justify-content: center;
+                align-items: center;
+            }
+        }
+        .list_bottom{
+            display: flex;
+            justify-content: center;
+            padding-right:0
+        }
+    }
+    #gatewayMap{
+        width: 69.5%;
+        
+        height:~"calc(100vh - 170px)";
+        // height: 920px;
+    }
+    .add_warpper{
+        display: flex;
+        width:85vw;
+        height: 100vh;
+        background: #FFF;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        #addGatewayMap{
+            width:43vw;
+            height: 100vh;
+            border-right: 1px solid #000;
+        }
+    }
+    .add_detail1{
+        width:42vw;
+        min-width: 610px;
+        height: 100vh;
+        .labelBlod{
+            padding:0 40px;
+            margin-top:20px;
+            /deep/
+            .ivu-form-item-label{
+                font-size: 16px;
+                font-weight: bold;
+            }
+            /deep/
+            .ivu-input{
+                height: 32px;
+            }
+            /deep/
+            .ivu-select-input{
+                height: 32px;
+                line-height: 32px;
+            }
+            /deep/
+            .ivu-select-selection{
+                height: 32px;
+            }
+        }
+        .add_title{
+            height:40px;
+            background:rgba(243,243,243,1);
+            display: flex;
+            align-items: center;
+            color:#333333;
+            font-size: 14px;
+            font-weight: bold;
+            img{
+                width:28px;
+                height: 28px;
+                cursor: pointer;
+                margin:0 24px 0 14px;
+            }
+        }
+        .add_scroll{
+            overflow-y:auto;
+            height:~"calc(100vh - 118px)";
+
+        }
+        .uploadTitle{
+            padding:0 30px;
+            display: flex;
+            height: 40px;
+            justify-content: space-between;
+            margin-top:30px;
+            div:nth-child(1){
+                font-size:16px;
+                font-weight: bold;
+            }
+            div:nth-child(2){
+                margin-top:5px;
+                span:nth-child(1){
+                    color:#01C1AE;
+                    cursor: pointer;
+                }
+            }
+        }
+        /deep/
+        .ivu-upload{
+            padding:0 30px;
+            height: 320px;
+        }
+        .selectFile{
+            height:32px;
+            width: 200px;
+            background: #01C1AE;
+            display: flex;
+            color: #FFF;
+            align-items: center;
+            justify-content: center;
+            margin-bottom:30px;
+        }
+        /deep/
+        .ivu-upload-drag{
+            border:1px solid rgba(112,112,112,1);
+            border-radius: 0;
+        }
+    }
+    .add_detail{
+        width:810px;
+        height: 100vh;
+        background: #FFF;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        .labelBlod{
+            padding:0 40px;
+            /deep/
+            .ivu-form-item-label{
+                font-size: 16px;
+                font-weight: bold;
+            }
+            /deep/
+            .ivu-input{
+                height: 32px;
+            }
+            /deep/
+            .ivu-select-input{
+                height: 32px;
+                line-height: 32px;
+            }
+            /deep/
+            .ivu-select-selection{
+                height: 32px;
+            }
+        }
+        .add_title{
+            height:40px;
+            background:rgba(243,243,243,1);
+            display: flex;
+            align-items: center;
+            color:#333333;
+            img{
+                width:28px;
+                height: 28px;
+                cursor: pointer;
+                margin:0 24px 0 14px;
+            }
+        }
+        .add_scroll{
+            overflow-y:auto;
+            height:~"calc(100vh - 118px)";
+        }
+        .uploadTitle{
+            padding:0 30px;
+            display: flex;
+            height: 40px;
+            justify-content: space-between;
+            margin-top:30px;
+            div:nth-child(1){
+                font-size:16px;
+                font-weight: bold;
+            }
+            div:nth-child(2){
+                margin-top:5px;
+                span:nth-child(1){
+                    color:#01C1AE;
+                    cursor: pointer;
+                }
+            }
+        }
+        /deep/
+        .ivu-upload{
+            padding:0 30px;
+            height: 320px;
+        }
+        .selectFile{
+            height:32px;
+            width: 200px;
+            background: #01C1AE;
+            display: flex;
+            color: #FFF;
+            align-items: center;
+            justify-content: center;
+            margin-bottom:30px;
+        }
+        /deep/
+        .ivu-upload-drag{
+            border:1px solid rgba(112,112,112,1);
+            border-radius: 0;
+        }
+        .content1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top:90px;
+            color:#808080;
+        }
+    }
+}
+// 弹出层动画
+.detail-fade-enter-active{
+    animation: detail-in .6s;
+}
+.detail-fade-leave-active {
+    animation: detail-out .6s;
+}
+@keyframes detail-in {
+    0% {
+        transform: translate(1700px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes detail-out {
+    0% {
+        transform: translate(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(1700px);
+        opacity: 0;
+    }
+}

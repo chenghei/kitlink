@@ -1,0 +1,56 @@
+.content_left{
+    width: 23.52%;
+    height:~"calc(100vh - 170px)";
+    min-height: 360px;
+    background: #FFF;
+}
+.content_right{
+    width: 75%;
+    height:~"calc(100vh - 170px)";
+    min-height: 360px;
+    background: #FFF;
+}
+.tree_out{
+    padding:30px;
+    height:~"calc(100vh - 210px)";
+    overflow: auto;
+}
+.add_scroll{
+    /deep/
+    .ivu-table th{
+        background: #1A1A1A;
+        color:#FFF;
+    }
+}
+/deep/
+.ivu-checkbox{
+    margin-right:5px
+}
+.inner_800{
+    width:40vw;
+    right: 40.5vw;
+}
+.width800-fade-enter-active{
+    animation: width800-in .5s;
+}
+.width800-fade-leave-active {
+    animation: width800-out .5s;
+}
+@keyframes width800-in {
+    0% {
+        transform: translate(40vw);opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);opacity: 1;
+    }
+}
+@keyframes width800-out {
+    0% {
+        transform: translate(0);opacity: 1;
+    }
+
+    100% {
+        transform: translate(40vw);opacity: 0;
+    }
+}

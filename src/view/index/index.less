@@ -1,0 +1,69 @@
+.index{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    .index_top{
+        color:#FFF;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        line-height: 100px;
+        letter-spacing: 2vw;
+        background:rgba(51,51,51,1);
+        white-space: nowrap;
+        height:100px;
+        .logo{
+            position: absolute;
+            left:62px;
+            width: 144px;
+            height:32px;
+            top:29px;
+        }
+    }
+    .indexCard div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top:10px;
+        box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+        margin-right:20px;
+        margin-bottom:20px;
+        cursor: pointer;
+        transition: all .2s ease;
+        width:300px;
+        height: 400px;
+        img{
+            margin-bottom:40px;
+        }
+        span{
+            font-size:22px;
+            color:rgba(12,12,12,1);
+            margin-bottom:40px;
+        }
+        .icon{
+            opacity: 0;
+            transform: translateY(0px);
+            transition: all .2s ease;
+        }
+    }
+    .index_bottom {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .code-row-bg {
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .indexCard div:hover{
+        box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    }
+    .indexCard div:hover .icon{
+        opacity: 1;
+        transform: translateY(-10px);
+    } 
+}

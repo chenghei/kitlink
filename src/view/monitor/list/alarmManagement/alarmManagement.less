@@ -1,0 +1,100 @@
+/deep/
+.ivu-icon-ios-arrow-forward:before{
+    content: "\F11F";
+}
+/deep/
+.ivu-icon-ios-arrow-back:before{
+    content: "\F115";
+}
+.exportClass{
+    /deep/
+    .ivu-input{
+        height: 32px;
+    }
+    /deep/
+    .ivu-select-single .ivu-select-selection{
+        height: 32px;
+        line-height: 32px;
+    }
+    .input_middle{
+        height:32px;
+    }
+}
+#alarmManagement{
+    .content{
+        height:~"calc(100vh - 170px)";
+        min-height: 650px;
+        background: #FFF;
+        .header{
+            height: 40px;
+            background: #1A1A1A;
+            color:#FFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0 30px;
+            div{
+                display: flex;
+                align-items: center;
+                white-space: nowrap;
+                img{
+                    margin-right: 10px;
+                }
+            }
+            div:nth-child(1){
+                img{
+                    cursor: pointer;
+                }
+            }     
+            div:nth-child(2){
+                cursor: pointer;
+            }       
+        }
+        /deep/
+        .ivu-table-expanded-cell{
+            background: #808080;
+        }
+        .content_body_out{
+            height:~"calc(100vh - 370px)";
+            min-height: 450px;
+            overflow-y:scroll; 
+            span{
+                width:12.58%;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            /deep/
+            .ivu-collapse{
+                border-radius: 0px;
+                border-top:none;
+                border-left:none;
+                border-right:none;
+            }
+            /deep/
+            .ivu-collapse > .ivu-collapse-item > .ivu-collapse-header{
+                height:60px;
+                line-height: 60px;
+                display: flex;
+                align-items: center;
+                background: #FFF;
+                color:#1A1A1A;
+            }
+            /deep/
+            .ivu-collapse-content{
+                background: #808080;
+                border:none;
+                color:#FFF;
+            }
+        }
+        // .content_body_out::-webkit-scrollbar{ width: 6px; height: 10px;}
+        .content_title{
+            display: flex;
+            font-weight: bold;
+            margin-left:42px;
+            div{
+                width:12.7%;
+            }
+        }
+    }
+}
